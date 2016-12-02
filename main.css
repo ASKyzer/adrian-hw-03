@@ -1,0 +1,218 @@
+
+
+@font-face {
+  font-family: 'League Gothic';
+  src: url('../fonts/leaguegothic-regular-webfont.eot');
+  src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+       url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+       url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix:after {
+     content: " ";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+  line-height: 1.5;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  float: right;
+  display: inline;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
+.all-caps {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: .5px;
+}
+
+.normal-fonts {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  height: 110px;
+  background-color: black;
+  border-bottom: 3px solid #ffff29;
+}
+
+h1 {
+  color: #ffff29;
+  font-family: 'Alike Angular', serif;
+  margin: 0;
+  padding: 10px 0 0 20px;
+}
+
+.top-bar {
+  color: white;
+  margin: 0;
+  padding-right: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.two-brains {
+  height: auto;
+  font-weight: bold;
+}
+
+.taste {
+  color: #919191;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.are {
+  border-bottom: 2px solid yellow;
+}
+
+.sm-moto {
+  font-family: 'Alike Angular', serif;
+  font-weight: bold;
+  height: auto;
+  background-color: #bfbfbf;
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+  padding: 15px 0;
+}
+.sm-description {
+  height: 450px;
+  background: url(../images/coworking.jpg) no-repeat center;
+  background-size: cover;
+  border: 1px solid #888888;
+}
+
+.meet-match {
+  color: black;
+  float: right;
+  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
+  height: 300px;
+  width: 240px;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 30px 20px;
+  background-color: rgba(245, 245, 245, .80);
+}
+
+.create-profile {
+  color: black;
+  height: auto;
+  width: auto;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px #888888;
+  background-color: #ffff29;
+}
+
+.sm-select {
+  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
+  line-height: 1.6;
+  height: auto;
+  float: left;
+  width: 25%;
+  margin-top: 3%;
+  padding-right: 4%;
+  margin-bottom: 4%;
+  padding-left: 4%;
+  padding-bottom: 2%;
+}
+
+.find-a-developer-container {
+  height: auto;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+  font-family: serif;
+}
+
+.sign-up-now-button {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  background-color: #bfbfbf;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px #888888;
+  padding: 10px;
+}
+
+.start-your-search-button {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  background-color: #bfbfbf;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px #888888;
+  padding: 10px;
+}
+
+footer {
+  clear: both;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: black;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
