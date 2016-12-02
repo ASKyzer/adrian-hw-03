@@ -18,6 +18,7 @@
     line-height: 0;
     height: 0;
 }
+
 .clearfix:after {
      content: " ";
      display: block;
@@ -47,6 +48,7 @@ a {
   padding: 10px;
   text-decoration: none;
   color: black;
+  font-weight: bolder;
 }
 
 p {
@@ -102,7 +104,7 @@ h2 {
 }
 
 .are {
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid #ffff29;
 }
 
 .sm-moto {
@@ -188,7 +190,7 @@ h3 {
   margin-top: 30px;
   border-radius: 5px;
   box-shadow: 0px 2px 1px #888888;
-  padding: 10px;
+  padding: 10px 2px;
 }
 
 .start-your-search-button {
@@ -202,7 +204,7 @@ h3 {
   margin-top: 30px;
   border-radius: 5px;
   box-shadow: 0px 2px 1px #888888;
-  padding: 10px;
+  padding: 10px 2px;
 }
 
 footer {
@@ -215,4 +217,78 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
+}
+
+@media screen and (max-width: 689px){
+
+  .all-caps {
+    display: none;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .sm-select {
+    font-size: 16px;
+    width: auto;
+    padding: 0 30px;
+  }
+
+  .create-a-profile-container {
+    clear: both;
+  }
+
+  .create-a-profile-question {
+    float: left;
+    width: 55%;
+  }
+
+  .sign-up-now-button {
+    float: right;
+    width: 35%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  .find-a-developer-container {
+    clear: both;
+    border: none;
+  }
+
+  .find-a-developer-question {
+    float: left;
+    width: 55%;
+  }
+
+  .start-your-search-button {
+    text-align: center;
+  }
+
+  .middle-button {
+    float: right;
+    width: 35%;
+    margin: 0 auto;
+    font-size: 14px;
+
+  }
+
+  .find-a-designer-container {
+    clear: both;
+    padding-bottom: 30px;
+  }
+
+  .find-a-designer-question {
+    float: left;
+    width: 55%;
+  }
+
+  .right-button {
+    float: right;
+    width: 35%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+
 }
