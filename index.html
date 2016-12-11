@@ -7,9 +7,11 @@
         <title>Matchmaker Site</title>
         <meta name="description" content="">
 
+<!-- You don't need to use the ./ because that means look in the same folder, you can just start with the css/filename.  It also looks like you've got an extra stylesheet in the respository -->
         <link rel="stylesheet" href="./css/normalize.css" media="screen" title="no title">
         <link rel="stylesheet" href="./css/main.css" media="screen" title="no title">
 
+        <!-- It looks like you're adding the same fonts multiple times.  The more you load the slower the page will load so try to avoud using reduntent calls -->
         <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Anton|Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Anton|Open+Sans|Oswald" rel="stylesheet">
@@ -44,6 +46,7 @@
             Have a great idea for a product, but need help making it a reality?  We're here to help.  Startup Matchmaker is the best place for designers and developers to find each other.
           </p>
         <div class="create-profile">
+          <!-- Is there a reason you put a nav here instead of styling the div and link? -->
             <nav>
               <a class="create-button" href="#">CREATE A PROFILE</a>
             </nav>
@@ -57,6 +60,7 @@
           <p class="create-a-profile-question">
             Are you a Designer? Developer? Put yourself out there so that others can find you!
           </p>
+          <!-- Great job with clear class names! -->
           <div class="sign-up-now-button">
             <nav>
               <a href="#">SIGN UP NOW</a>
